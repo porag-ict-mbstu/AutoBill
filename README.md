@@ -5,6 +5,7 @@
 3. Editor(Netbeans 8.2)
 4.Database Name: autobill
 5.Table Name: profile
+6.For searching, I have used JQUERY
 
 You can read (Details Explanation of Project.txt) for more explanation.
 
