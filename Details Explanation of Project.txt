@@ -1,0 +1,45 @@
+----------------------------------------------------------------------
+Servlets
+-----------------------------------------------------------------------
+admin
+change_password
+login
+registration
+-----------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------
+PasswordEncryption
+------------------------------------------------------------------------
+EncryptPassword(This Class encrypt the given password for more security)
+------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------
+Models
+-------------------------------------------------------------------------
+LoginModel(Help to Login)
+RegistrationModel(Help to Sign Up)
+ViewModel(Help Admin to view or search record)
+-------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+DBConnection
+-------------------------------------------------------------------------
+DBCon(Connect with MySQL Database)(I use this class as a singletone because for each Controller Class we need Connection Class. If I use it as an ordinary class it takes memory for every 'new' call.
+-------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------
+Controller
+-------------------------------------------------------------------------
+Task(This class Control all operation. I made this class as Singletone because All Servlets and some JSP page need object of this class. That's why I made this Singletone, once an object created it return that created object.
+-------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------
+AgeCalculation
+--------------------------------------------------------------------------
+CalculateAge(This Class calculate the user current age. I also use it as Singletone class,though i use only one time.I make it singletone for future use(i.e. if in future many more object need)
+--------------------------------------------------------------------------
